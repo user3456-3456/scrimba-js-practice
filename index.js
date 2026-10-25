@@ -1,10 +1,6 @@
-// Create two variables, name and greeting. The name variable should store your name,
-// and the greeting should store e.g. "Hi, my name is "
+// Grab the welcome-el paragraph and store it in a variable called welcomeEl
 
-// Create a third variable, myGreeting, that contatenates the two strings
-// Log myGreeting to the console
-let name = "Damian"
-let  greeting = "Hi, my name is"
-let myGreeting = greeting + (" ") + name
+// Create two variables (name & greeting) that contains your name
+// and the greeting we want to render on the page
 
-console.log(myGreeting)
+// Render the welcome message using welcomeEl.innerText
