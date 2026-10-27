@@ -7,6 +7,14 @@
 let welcomeEl = document.getElementById("welcome-el")
 
 let name = "Damian Muuri"
-let greeting = "Back at it "
-let welcomeMessage = greeting + name
-welcomeEl.innerText(welcomeMessage)
+let greeting = "Back at it " 
+welcomeEl.innerText = greeting + name
+
+// Add an emoji to the end! 👋
+// WRITE YOUR CODE BELOW HERE
+// HINT: count = count + 1
+
+
+// name = name + 🙌
+
+welcomeEl.innerText = greeting + name + " 🙌"
